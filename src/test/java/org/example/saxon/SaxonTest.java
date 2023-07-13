@@ -10,11 +10,11 @@ class SaxonTest {
     int health = 60;
     int strength = 25;
 
-//    @Test
-//    public void should_inherit_from_Soldier() {
-//        Saxon saxon = new Saxon(health, strength);
-//        assertNotNull(saxon instanceof Soldier);
-//    }
+    @Test
+    public void should_inherit_from_Soldier() {
+        Saxon saxon = new Saxon(health, strength);
+        assertNotNull(saxon instanceof Soldier);
+    }
 
 //    @Test
 //    public void should_receive_2_arguments() {

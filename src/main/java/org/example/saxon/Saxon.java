@@ -1,4 +1,9 @@
 package org.example.saxon;
 
-public class Saxon {
+import org.example.soldier.Soldier;
+
+public class Saxon extends Soldier {
+    public Saxon(int health, int strength) {
+        super(health, strength);
+    }
 }
